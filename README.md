@@ -11,3 +11,7 @@ If you want to make simple changes, like adding a post or modifying an indivudal
 
 * Adding new posts to the website. Creating new [markdown](https://en.wikipedia.org/wiki/Markdown) files in the `_posts` directory will result in new blog posts being added to The Jonx Blog.
 
+## Making complicated contributions.
+Changes beyond adding pages and simple changes are much easier to contribute if you have a working [Jekyll](http://jekyllrb.com/docs/installation/) environment. If you want to get started with an isolated, pre-made Jekyll environment, consider pulling a container from [Docker Hub](https://registry.hub.docker.com/u/grahamc/jekyll) or an image from [Vagrant Cloud](https://vagrantcloud.com/marty/boxes/trusty64).  
+
+If you have any trouble setting up a development environment or suspect a bug, please open an [issue](https://github.com/the-jonx/the-jonx.github.io/issues).
