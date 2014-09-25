@@ -1,6 +1,6 @@
 T H E J O N X
 =======
 
-someone's gonna get jonx'd.
+Someone's gonna get jonx'd. Might as well be you.
 
 
