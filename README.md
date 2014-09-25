@@ -1,5 +1,5 @@
 <div align="middle">
-<img src ="images/logos/jonx_logo200px.png" alt="jonx logo" title="jonx logo"><br />
+<img src ="images/logos/jonx_logo200px.png" alt="jonx logo" title="jonx logo">
 <h1>T H E J O N X</h1>
 </div>
 =======
