@@ -2,6 +2,7 @@
 <img src ="images/logos/jonx_logo200px.png" alt="jonx logo" title="jonx logo">
 <h1>T H E J O N X</h1>
 </div>
+<<<<<<< HEAD
 <br />
 
 Someone's gonna jonx. Might as well be you. Follow the directions below if you want to participate.
@@ -15,3 +16,8 @@ If you want to make simple changes, like adding a post or modifying an indivudal
 Changes beyond adding pages and simple changes are much easier to contribute if you have a working [Jekyll](http://jekyllrb.com/docs/installation/) environment. If you want to get started with an isolated, pre-made Jekyll environment, consider pulling a container from [Docker Hub](https://registry.hub.docker.com/u/grahamc/jekyll) or an image from [Vagrant Cloud](https://vagrantcloud.com/marty/boxes/trusty64).  
 
 If you have any trouble setting up a development environment or suspect a bug, please open an [issue](https://github.com/the-jonx/the-jonx.github.io/issues).
+=======
+<br />  
+
+Someone's gonna get jonx'd. Might as well be you.
+>>>>>>> master
