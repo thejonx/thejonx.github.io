@@ -10,12 +10,19 @@
     position: relative;
 }
 
+.site-logo {
+    float: left;
+    background-image: url('website/images/logos/jonx_logo200px.png') no-repeat;
+    background-size: 50px 50px;
+
+}
+
 .site-title {
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    float: none;
 
     &,
     &:visited {
