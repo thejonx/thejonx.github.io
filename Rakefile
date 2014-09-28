@@ -166,9 +166,8 @@ namespace :site do
   task :stage do
     # Configure git if this is run in Travis CI
     if ENV["TRAVIS"]
-      sh "git config --global user.name '#{ENV['GIT_NAME']}'"
-      sh "git config --global user.email '#{ENV['GIT_EMAIL']}'"
-      sh "git config --global push.default simple"
+      sh "@git config --global user.name '#{ENV['GIT_NAME']}'"
+      sh "@git config --global user.email '#{ENV['GIT_EMAIL']}'"
     end
     
     # Switch branches and build the site.
