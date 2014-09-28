@@ -172,7 +172,7 @@ namespace :site do
     end
     
     # Switch branches and build the site.
-    sh "git checkout stage-live"
+    sh "git checkout -b stage-live"
     sh "bundle exec jekyll build --destination stage-live/"
 
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
