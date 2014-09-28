@@ -1,0 +1,11 @@
+language: ruby
+rvm: 2.1
+install: bundle install
+branches:
+  only:
+    - master
+env:
+  global:
+    secure: "KLYlEzPL1NC91tFsyQ1ZwkNzuILe0CvSTJ+VdaIXZoPSnup8v9LlZAuy3VLbT47oULc03x78gg9ru+2V2jWskDHODERl/9o0lT3gqOnFfWpuiPpE+RWh8tbEBZyk9m0Hhq1ISaPDwtl0Bel3sT8RnTX49+Qt9ywTy+fAcPu9cF0="
+script: bundle exec rake site:build
+after_success: bundle exec rake site:deploy --quiet
