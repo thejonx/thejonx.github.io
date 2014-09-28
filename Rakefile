@@ -178,7 +178,7 @@ namespace :site do
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     sh "git add --all ."
     sh "git commit -m 'Bump to @#{sha}.'"
-    sh "git push https://ENV['GH_TOKEN']@github.com/the-jonx/the-jonx.github.io.git stage-live"
+    sh "git push https://$GH_TOKEN@github.com/the-jonx/the-jonx.github.io.git stage-live"
     puts "Pushed updated branch stage-live."
   end
 end
