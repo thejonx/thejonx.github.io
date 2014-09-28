@@ -6,6 +6,6 @@ branches:
     - master
 env:
   global:
-    secure: "KLYlEzPL1NC91tFsyQ1ZwkNzuILe0CvSTJ+VdaIXZoPSnup8v9LlZAuy3VLbT47oULc03x78gg9ru+2V2jWskDHODERl/9o0lT3gqOnFfWpuiPpE+RWh8tbEBZyk9m0Hhq1ISaPDwtl0Bel3sT8RnTX49+Qt9ywTy+fAcPu9cF0="
+    secure: "bYJQX5rtDnLQtr58ONs2GpXvjM8+r/SMJbDKjeZzaJLalMOJA2OkoHaqZl3XtWjMAqYfiL8Ot0QZ+JWw4ojU9GMCRaSn0wIkJx2Za+aQ57uQU1jnSM8Q6AKu6UeETf/mq6LCJnKWP9zV9v89I0oLbd6SYi8B/0dh4c+mjsHE+BI="
 script: bundle exec rake site:build
 after_success: bundle exec rake site:stage
