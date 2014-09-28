@@ -4,6 +4,8 @@
 </div>
 <br />
 
+[![Build Status](https://travis-ci.org/the-jonx/the-jonx.github.io.svg?branch=master)](https://travis-ci.org/the-jonx/the-jonx.github.io)
+
 Someone's gonna jonx. Might as well be you. Follow the directions below if you want to participate.
 
 ## Making basic contributions.
