@@ -166,8 +166,8 @@ namespace :site do
   task :stage do
     # Configure git if this is run in Travis CI
     if ENV["TRAVIS"]
-      sh "@git config --global user.name '#{ENV['GIT_NAME']}'"
-      sh "@git config --global user.email '#{ENV['GIT_EMAIL']}'"
+      sh "git config --global user.name '#{ENV['GIT_NAME']}'"
+      sh "git config --global user.email '#{ENV['GIT_EMAIL']}'"
     end
     
     # Switch branches and build the site.
@@ -177,7 +177,7 @@ namespace :site do
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     sh "git add --all ."
     sh "git commit -m 'Bump to @#{sha}.'"
-    sh "@git push https://${GH_TOKEN}@github.com/the-jonx/the-jonx.github.io.git stage-live --quiet"
+    sh "git push https://${GH_TOKEN}@github.com/the-jonx/the-jonx.github.io.git stage-live --quiet"
     puts "Pushed updated branch stage-live."
   end
 end
