@@ -4,7 +4,7 @@
 </div>
 <br />
 
-[![Build Status](https://travis-ci.org/the-jonx/the-jonx.github.io.svg?branch=master)](https://travis-ci.org/thejonx/thejonx.github.io)
+![Build Status](https://travis-ci.org/the-jonx/the-jonx.github.io.svg?branch=master)](https://travis-ci.org/thejonx/thejonx.github.io)
 
 This repository contains the code needed to build [thejonx.com](thejonx.com) and generates [thejonx.github.io](https://thejonx.github.io). When a pull request is merged into the `master` branch, [Travis CI](http://travis-ci.org) pulls the repository, builds the new site, and pushes a staged version to `live/` in the `stage-live` branch upon successfully building the changes. The `live` directory is then synchronized with our production web server.
 
