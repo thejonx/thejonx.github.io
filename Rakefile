@@ -175,7 +175,7 @@ namespace :site do
     sh "bundle exec jekyll build --destination live/"
 
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
-    sh "git add --all ."
+    sh "git add stage-live"
     sh "git commit -m 'Bump to @#{sha}.'"
     sh "git push https://${GH_TOKEN}@github.com/the-jonx/the-jonx.github.io.git stage-live --quiet"
     puts "Pushed updated branch stage-live."
