@@ -3,8 +3,8 @@ title: The Jonx
 email: your-email@domain.com
 description: >
   A place for hackers in Central Illinois.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://thejonx.github.io"
 twitter_username: hackthejonx
 github_username:  thejonx
 
