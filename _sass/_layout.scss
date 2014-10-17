@@ -15,7 +15,7 @@
     height: 14%;
     padding: 0.25%;
     float: left;
-    background-image: url('website/images/logos/jonx_logo200px.png') no-repeat;
+    background-image: url('{{ site.baseurl }}/website/images/logos/jonx_logo200px.png') no-repeat;
 
 }
 
