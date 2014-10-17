@@ -153,7 +153,7 @@ namespace :site do
   desc "Generate and view the site locally"
   task :serve do
     puts "Running Jekyll..."
-    sh "bundle exec jekyll serve --watch"
+    sh "bundle exec jekyll serve --watch --baseurl ''"
   end
 
   desc "Generate site"
