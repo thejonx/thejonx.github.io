@@ -5,14 +5,15 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    padding-top: 2px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-logo {
-    width: 14%;
-    height: 14%;
+    width: 7%;
+    height: 7%;
     float: left;
     background-image: url('{{ site.baseurl }}/website/images/logos/jonx_logo200px.png') no-repeat;
 
@@ -21,9 +22,7 @@
 .site-title {
     font-size: 26px;
     line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: none;
+    padding-left: 10px;
 
     &,
     &:visited {
